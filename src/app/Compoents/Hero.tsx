@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import React from 'react'
 
 const Hero = () => {
@@ -23,35 +24,38 @@ const Hero = () => {
       </p>
       <a
         href="#"
-        className="inline-block px-6 py-3 bg-black text-white font-medium rounded-lg shadow-lg hover:bg-gray-800"
+        className="inline-block px-12 py-3 bg-black border  text-white font-medium rounded-full shadow-lg hover:bg-gray-800"
       >
         Shop Now
       </a>
     </div>
     {/* Image */}
     <div className="md:w-1/2 mt-4 md:mt-0 right-10 left-11">
-      <img
-        src="./font (1).png"
+      <Image
+        src="/34.jpeg"
+        height={1000}
+        width={1000}
         alt="Fashion Models"
       />
     </div>
   </section>
   {/* Statistics Section */}
-  <section className="max-w-7xl mx-auto py-1 px-1 md:px-1 flex flex-wrap gap-6">
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <section className="max-w-7xl mx-auto py-1 px-1 md:px-4 flex flex-wrap gap-6">
     <div className="text-center md:text-left">
-      <h2 className="text-2xl font-extrabold text-gray-900">200+</h2>
+      <h2 className="text-3xl font-extrabold text-gray-900">200+</h2>
       <p className="text-gray-600">International Brands</p>
     </div>
     <div className="text-center md:text-left">
-      <h2 className="text-2xl font-extrabold text-gray-900">2,000+</h2>
+      <h2 className="text-3xl font-extrabold text-gray-900">2,000+</h2>
       <p className="text-gray-600">High-Quality Products</p>
     </div>
     <div className="text-center md:text-left">
-      <h2 className="text-2xl font-extrabold text-gray-900">30,000+</h2>
+      <h2 className="text-3xl font-extrabold text-gray-900">30,000+</h2>
       <p className="text-gray-600">Happy Customers</p>
     </div>
   </section>
-
   <>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -87,7 +91,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Product 1 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Black T-shirt with Tape Details"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -119,7 +123,7 @@ const Hero = () => {
         </div>
         {/* Product 2 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Skinny Fit Jeans"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -152,7 +156,7 @@ const Hero = () => {
         </div>
         {/* Product 3 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Checkered Shirt"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -182,7 +186,7 @@ const Hero = () => {
         </div>
         {/* Product 4 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Sleeve Striped T-shirt"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -226,7 +230,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Product 1 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Vertical Striped Shirt"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -259,7 +263,7 @@ const Hero = () => {
         </div>
         {/* Product 2 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Courage Graphic T-shirt"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -291,7 +295,7 @@ const Hero = () => {
         </div>
         {/* Product 3 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Loose Fit Bermuda Shorts"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -323,7 +327,7 @@ const Hero = () => {
         </div>
         {/* Product 4 */}
         <div className="bg-white p-4 rounded-lg shadow">
-          <img
+          <Image
             alt="Faded Skinny Jeans"
             className="w-full h-64 object-cover mb-4 product-image"
             height={300}
@@ -392,10 +396,12 @@ const Hero = () => {
   <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
     <div className="relative bg-white rounded-lg overflow-hidden shadow-md hover-zoom sm:col-span-1">
       <div className="w-full h-48 bg-white flex items-center justify-center">
-        <img
+        <Image
           alt="Man in casual wear"
           className="w-full h-full object-cover"
           src="https://storage.googleapis.com/a1aa/image/HXQVR7ZY1nIuJxIzxQBglGlyZSjm6rXzJed33JpI7zgO2U8JA.jpg"
+          width={1000}
+          height={1000}
         />
       </div>
       <div className="absolute top-4 left-4 text-black text-2xl font-bold">
@@ -404,10 +410,12 @@ const Hero = () => {
     </div>
     <div className="relative bg-white rounded-lg overflow-hidden shadow-md hover-zoom sm:col-span-2">
       <div className="w-full h-48 bg-white flex items-center justify-center">
-        <img
+        <Image
           alt="Man in formal wear"
           className="w-full h-full object-cover"
           src="https://storage.googleapis.com/a1aa/image/W6l14riGwfzEf0xFChvxKgZwGn3bXzi1TuAnydk9ztncsp4TA.jpg"
+          width={1000}
+          height={1000}
         />
       </div>
       <div className="absolute top-4 left-4 text-black text-2xl font-bold">
@@ -416,10 +424,12 @@ const Hero = () => {
     </div>
     <div className="relative bg-white rounded-lg overflow-hidden shadow-md hover-zoom sm:col-span-2">
       <div className="w-full h-48 bg-white flex items-center justify-center">
-        <img
+        <Image
           alt="Woman in party wear"
           className="w-full h-full object-cover"
           src="https://storage.googleapis.com/a1aa/image/jyDVlTPVXewOMqIlxNSdIwFiOLkS6HjNrlEKirQO8toP2U8JA.jpg"
+          width={1000}
+          height={1000}
         />
       </div>
       <div className="absolute top-4 left-4 text-black text-2xl font-bold">
@@ -428,10 +438,12 @@ const Hero = () => {
     </div>
     <div className="relative bg-white rounded-lg overflow-hidden shadow-md hover-zoom sm:col-span-1">
       <div className="w-full h-48 bg-white flex items-center justify-center">
-        <img
+        <Image
           alt="Person in gym wear"
           className="w-full h-full object-cover"
           src="https://storage.googleapis.com/a1aa/image/7YoVSswadhZNAlZey3j6btckXsVeBPbAceffWHlGdznHkNFfE.jpg"
+          width={1000}
+          height={1000}
         />
       </div>
       <div className="absolute top-4 left-4 text-black text-2xl font-bold">

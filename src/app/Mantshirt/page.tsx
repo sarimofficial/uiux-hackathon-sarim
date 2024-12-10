@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const page = () => {
@@ -7,14 +8,14 @@ const page = () => {
   <meta charSet="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Product Page</title>
-  <link
+  {/* <link
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     rel="stylesheet"
   />
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
     rel="stylesheet"
-  />
+  /> */}
   <style
     dangerouslySetInnerHTML={{
       __html:
@@ -42,7 +43,7 @@ const page = () => {
       {/* Image Gallery */}
       <div className="flex flex-col items-center lg:w-1/2">
         <div className="w-3/4 mb-4">
-          <img
+          <Image
             id="mainImage"
             alt="Main image of the One Life Graphic T-Shirt"
             className="w-full rounded-lg"
@@ -52,7 +53,7 @@ const page = () => {
           />
         </div>
         <div className="flex space-x-4">
-          <img
+          <Image
             alt="Thumbnail image 1 of the One Life Graphic T-Shirt"
             className="w-20 h-20 rounded-lg border thumbnail"
             height={100}
@@ -60,7 +61,7 @@ const page = () => {
             width={100}
             //onclick="changeImage(this.src)"
           />
-          <img
+          <Image
             alt="Thumbnail image 2 of the One Life Graphic T-Shirt"
             className="w-20 h-20 rounded-lg border thumbnail"
             height={100}
@@ -68,7 +69,7 @@ const page = () => {
             width={100}
            // onclick="changeImage(this.src)"
           />
-          <img
+          <Image
             alt="Thumbnail image 3 of the One Life Graphic T-Shirt"
             className="w-20 h-20 rounded-lg border thumbnail"
             height={100}
@@ -337,7 +338,7 @@ const page = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
       {/* Product 1 */}
       <div className="bg-gray-100 p-4 rounded-lg text-center">
-        <img
+        <Image
           alt="Polo with Contrast Trims"
           className="mx-auto mb-4 hover-effect"
           height={200}
@@ -370,7 +371,7 @@ const page = () => {
       </div>
       {/* Product 2 */}
       <div className="bg-gray-100 p-4 rounded-lg text-center">
-        <img
+        <Image
           alt="Gradient Graphic T-shirt"
           className="mx-auto mb-4 hover-effect"
           height={200}
@@ -400,7 +401,7 @@ const page = () => {
       </div>
       {/* Product 3 */}
       <div className="bg-gray-100 p-4 rounded-lg text-center">
-        <img
+        <Image
           alt="Polo with Tipping Details"
           className="mx-auto mb-4 hover-effect"
           height={200}
@@ -430,7 +431,7 @@ const page = () => {
       </div>
       {/* Product 4 */}
       <div className="bg-gray-100 p-4 rounded-lg text-center">
-        <img
+        <Image
           alt="Black Striped T-shirt"
           className="mx-auto mb-4 hover-effect"
           height={200}

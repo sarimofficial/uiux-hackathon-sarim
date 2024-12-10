@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const page = () => {
@@ -23,7 +24,7 @@ const page = () => {
       <div className="flex-1 bg-white p-6 rounded-lg shadow-md">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center">
-            <img
+            <Image
               alt="Gradient Graphic T-shirt"
               className="w-24 h-24 rounded-lg"
               height={100}
@@ -55,7 +56,7 @@ const page = () => {
         <hr className="my-4" />
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center">
-            <img
+            <Image
               alt="Checkered Shirt"
               className="w-24 h-24 rounded-lg"
               height={100}
@@ -87,7 +88,7 @@ const page = () => {
         <hr className="my-4" />
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center">
-            <img
+            <Image
               alt="Skinny Fit Jeans"
               className="w-24 h-24 rounded-lg"
               height={100}

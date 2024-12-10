@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const footer = () => {
@@ -126,34 +127,34 @@ const footer = () => {
         </div>
         <div className="border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm">
-            © Shop.co 2000-2023, All Rights Reserved
+            © Shop.co 2000-2025, Muhammad Sarim All Rights Reserved
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <img
+            <Image
               alt="Visa logo"
               height={25}
               src="https://storage.googleapis.com/a1aa/image/u29HSd1oGwY8BNMJIZWP9o5fqmlN908vhaeCnMTCqaxQuo4TA.jpg"
               width={40}
             />
-            <img
+            <Image
               alt="PayPal logo"
               height={25}
               src="https://storage.googleapis.com/a1aa/image/Iwgw49gmM3rlON3iqZ0kUvqMeamDmEazNRNUQ0wf8o5Uuo4TA.jpg"
               width={40}
             />
-            <img
+            <Image
               alt="MasterCard logo"
               height={25}
               src="https://storage.googleapis.com/a1aa/image/SblzPMYq9zKCBxePShIMef2bpYyfc1m1S4yZVsYyvblF5iiPB.jpg"
               width={40}
             />
-            <img
+            <Image
               alt="Apple Pay logo"
               height={25}
               src="https://storage.googleapis.com/a1aa/image/1PvwUgScRPIuGRGJRyP2Ms4iEV0e9UgRGHt14QXZWsyJXU8JA.jpg"
               width={40}
             />
-            <img
+            <Image
               alt="Google Pay logo"
               height={25}
               src="https://storage.googleapis.com/a1aa/image/9KkVF8pqeXxbByQSoSKZMiZj23Lw0nvgCUrZklWR8k9KXU8JA.jpg"

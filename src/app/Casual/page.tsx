@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const page = () => {
@@ -130,7 +131,7 @@ const page = () => {
           <div className="grid grid-cols-3 gap-4">
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Gradient Graphic T-shirt"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -160,7 +161,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Polo with Tipping Details"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -190,7 +191,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Black Striped T-shirt"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -224,7 +225,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Skinny Fit Jeans"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -258,7 +259,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Checkered Shirt"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -288,7 +289,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Sleeve Striped T-shirt"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -322,7 +323,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Vertical Striped Shirt"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
@@ -352,7 +353,7 @@ const page = () => {
             </div>
             {/* Product Card */}
             <div className="border rounded-lg p-4">
-              <img
+              <Image
                 alt="Courage Graphic T-shirt"
                 className="w-full mb-4 rounded-lg hover:shadow-lg transition-shadow duration-300 hover:scale-105 transform"
                 height={200}
